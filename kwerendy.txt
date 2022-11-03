@@ -1,0 +1,3 @@
+select id,imie,nazwisko from Pacjenci;
+select imie,nazwisko,choroby_przewlekle,uczulenia from Pacjenci where id=1;
+select imie,nazwisko from Pacjenci where uczulenia="brak";
